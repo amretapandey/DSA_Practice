@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int merge(int A[], int l, int mid, int h){
+int merge(int A[], int l, int mid, int h){  // Two-way merge
     int i = l, j = mid + 1, k = l, B[100];
     while(i <= mid && j <= h){
         if(A[i] < A[j])
